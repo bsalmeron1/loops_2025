@@ -1,6 +1,15 @@
+
 # Example Practice:
 # Given this list of fruits:
 fruits = ["apple", "banana", "cherry", "date"]
+print (fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+for fruit in fruits:print(fruit)
+
+
+
 
 # Challenge:
 # Use a for loop to print each fruit on a new line.
@@ -8,6 +17,9 @@ fruits = ["apple", "banana", "cherry", "date"]
 
 # Given a list of school subjects:
 subjects = ["Math", "Science", "History", "Art"]
+
+for born in subjects:
+    print( born)
 
 # Challenge:
 # Use a for loop and range to print each subject along with its index:
